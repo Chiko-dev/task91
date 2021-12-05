@@ -9,6 +9,7 @@ export default class Application extends EventEmitter {
   }
 
   constructor() {
+    this._beat = new Beat()
     super();
 
     const lyrics = ["Ah", "ha", "ha", "ha", "stayin' alive", "stayin' alive"];
