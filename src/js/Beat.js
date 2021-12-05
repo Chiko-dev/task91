@@ -11,13 +11,3 @@ export default class Beat {
     }, 600);
   }
 }
-
-class Application {
-    constructor() {
-        this._beat = new Beat();
-    }
-
-    _create(){
-        
-    }
-}
