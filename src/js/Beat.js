@@ -7,6 +7,7 @@ export default class Beat {
 
   constructor() {
     setInterval(() => {
+      Beat.events.BIT;
       console.log("bit");
     }, 600);
   }
